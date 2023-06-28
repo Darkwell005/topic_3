@@ -1,4 +1,4 @@
-radius: float = float(input('Введите радиус круга:'))
+radius: float = float(input('Введите радиус круга: '))
 
 # S = pi * r^2
 

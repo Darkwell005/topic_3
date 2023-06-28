@@ -1,5 +1,6 @@
-line = input('Введите строку:')
-num = int(input('Введите число:'))
+line: str = input('Введите строку: ')
+num: int = int(input('Введите число: '))
 
-result: str = (line * num)
+result: str = (line + "\n") * num
+
 print(result)
