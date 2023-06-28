@@ -1,6 +1,6 @@
-line_1 = ...  # здесь Ваш код
-line_2 = ...  # здесь Ваш код
+line_1 = input(str('Введите первую строку:'))
+line_2 = input(str('Введите вторую строку:'))
 
-result = ...  # здесь Ваш код
+result = line_1 + line_2
 
-print(...)  # допишите код
+print(line_1, line_2, sep='-')
